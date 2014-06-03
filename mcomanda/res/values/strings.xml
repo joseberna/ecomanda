@@ -4,5 +4,19 @@
     <string name="app_name">mcomanda</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    
+    <string name="eje_mesero">Juan Miguel Alzate - Cod37</string>
+    
+    <string name="lb_mesero">Mesero:</string>
+    <string name="lb_mesa">Mesa:</string>
+    <string name="lb_producto">Producto:</string>
+    <string name="lb_cantidad">Cantidad:</string>
+    <string name="lb_ok">OK</string>
+    <string name="lb_enviar">Enviar</string>
+    <string name="lb_cancelar">Cancelar</string>
+    
+    
+    <string name="msj_mesa">Digite el número de la mesa</string>
 
 </resources>

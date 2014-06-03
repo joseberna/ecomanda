@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frags"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <!-- "Fragment A" -->
+
+    <fragment
+        android:id="@+id/ped_frag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.bares.mcomanda.PedidosFragment" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/ly_cabecera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TableLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tableLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <!-- ----------------- -- Primera Tabla -- ------------------------------ -->
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/txtMesero"
+                        android:text="@string/eje_mesero" />
+
+                    <TextView
+                        android:id="@+id/txtMesa"
+                        android:text="@string/lb_mesa" />
+
+                    <EditText
+                        android:id="@+id/editMesa"
+                        android:layout_span="1"
+                        android:text="@string/msj_mesa" />
+
+                    <Button
+                        android:id="@+id/idBtnMesa"
+                        android:text="@string/lb_ok" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </fragment>
+
+    <!-- ----------------------------------------------- "Fragment B" --------------------------------------- -->
+
+    <fragment
+        android:id="@+id/prodgal_fraf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.bares.mcomanda.ProductosGalFragment" />
+
+</LinearLayout>
