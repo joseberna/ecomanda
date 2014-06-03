@@ -27,8 +27,6 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" >
 
-                <!-- ----------------- -- Primera Tabla -- ------------------------------ -->
-
                 <TableRow
                     android:id="@+id/tableRow1"
                     android:layout_width="wrap_content"
@@ -55,8 +53,6 @@
             </TableLayout>
         </LinearLayout>
     </fragment>
-
-    <!-- ----------------------------------------------- "Fragment B" --------------------------------------- -->
 
     <fragment
         android:id="@+id/prodgal_fraf"
