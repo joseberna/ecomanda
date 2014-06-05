@@ -10,6 +10,11 @@ package com.pedido.mcomanda;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int blanco=0x7f060000;
+        public static final int indianRed=0x7f060001;
+        public static final int red=0x7f060002;
+    }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
 
@@ -32,65 +37,65 @@ public final class R {
         public static final int wishkey=0x7f020008;
     }
     public static final class id {
-        public static final int action_settings=0x7f08003a;
-        public static final int btn0=0x7f080036;
-        public static final int btn1=0x7f08002c;
-        public static final int btn2=0x7f08002d;
-        public static final int btn3=0x7f08002e;
-        public static final int btn4=0x7f08002f;
-        public static final int btn5=0x7f080030;
-        public static final int btn6=0x7f080032;
-        public static final int btn7=0x7f080033;
-        public static final int btn8=0x7f080034;
-        public static final int btn9=0x7f080035;
-        public static final int btnAdelante=0x7f080037;
-        public static final int btnBack=0x7f080031;
-        public static final int btnCancelar=0x7f080039;
-        public static final int btnCantidad=0x7f08000c;
-        public static final int btnEnviar=0x7f080038;
-        public static final int btnMesa=0x7f080006;
-        public static final int btnProducto=0x7f080009;
-        public static final int chkEliminar=0x7f080019;
-        public static final int chkEliminar2=0x7f08001f;
-        public static final int chkEliminar3=0x7f080025;
-        public static final int chkEliminar4=0x7f08002b;
-        public static final int et_cantidad=0x7f08000b;
-        public static final int et_mesa=0x7f080005;
-        public static final int et_producto=0x7f080008;
-        public static final int galeriaFragment=0x7f080001;
-        public static final int gridView=0x7f080002;
-        public static final int idTabCantidad=0x7f080011;
-        public static final int idTabCantidad1=0x7f080017;
-        public static final int idTabCantidad2=0x7f08001d;
-        public static final int idTabCantidad3=0x7f080023;
-        public static final int idTabCantidad4=0x7f080029;
-        public static final int idTabCodigo=0x7f08000f;
-        public static final int idTabCodigo1=0x7f080015;
-        public static final int idTabCodigo2=0x7f08001b;
-        public static final int idTabCodigo3=0x7f080021;
-        public static final int idTabCodigo4=0x7f080027;
-        public static final int idTabEliminar=0x7f080013;
-        public static final int idTabProducto=0x7f080010;
-        public static final int idTabProducto1=0x7f080016;
-        public static final int idTabProducto2=0x7f08001c;
-        public static final int idTabProducto3=0x7f080022;
-        public static final int idTabProducto4=0x7f080028;
-        public static final int idTabValor=0x7f080012;
-        public static final int idTabValor1=0x7f080018;
-        public static final int idTabValor2=0x7f08001e;
-        public static final int idTabValor3=0x7f080024;
-        public static final int idTabValor4=0x7f08002a;
-        public static final int pedidoFragment=0x7f080000;
-        public static final int tableRow1=0x7f08000e;
-        public static final int tableRow2=0x7f080014;
-        public static final int tableRow3=0x7f08001a;
-        public static final int tableRow4=0x7f080020;
-        public static final int tableRow5=0x7f080026;
-        public static final int tvCantidad=0x7f08000a;
-        public static final int tvMesa=0x7f080004;
-        public static final int tvMesero=0x7f080003;
-        public static final int tvProducto=0x7f080007;
-        public static final int tvTotal=0x7f08000d;
+        public static final int action_settings=0x7f09003a;
+        public static final int btn0=0x7f090038;
+        public static final int btn1=0x7f09002d;
+        public static final int btn2=0x7f09002e;
+        public static final int btn3=0x7f09002f;
+        public static final int btn4=0x7f090030;
+        public static final int btn5=0x7f090031;
+        public static final int btn6=0x7f090034;
+        public static final int btn7=0x7f090035;
+        public static final int btn8=0x7f090036;
+        public static final int btn9=0x7f090037;
+        public static final int btnAdelante=0x7f090039;
+        public static final int btnBack=0x7f090032;
+        public static final int btnCantidad=0x7f09000c;
+        public static final int btnMesa=0x7f090006;
+        public static final int btnProducto=0x7f090009;
+        public static final int chkEliminar=0x7f090019;
+        public static final int chkEliminar2=0x7f09001f;
+        public static final int chkEliminar3=0x7f090025;
+        public static final int chkEliminar4=0x7f09002b;
+        public static final int et_cantidad=0x7f09000b;
+        public static final int et_mesa=0x7f090005;
+        public static final int et_producto=0x7f090008;
+        public static final int galeriaFragment=0x7f090001;
+        public static final int gridView=0x7f090002;
+        public static final int idTabCantidad=0x7f090011;
+        public static final int idTabCantidad1=0x7f090017;
+        public static final int idTabCantidad2=0x7f09001d;
+        public static final int idTabCantidad3=0x7f090023;
+        public static final int idTabCantidad4=0x7f090029;
+        public static final int idTabCodigo=0x7f09000f;
+        public static final int idTabCodigo1=0x7f090015;
+        public static final int idTabCodigo2=0x7f09001b;
+        public static final int idTabCodigo3=0x7f090021;
+        public static final int idTabCodigo4=0x7f090027;
+        public static final int idTabEliminar=0x7f090013;
+        public static final int idTabProducto=0x7f090010;
+        public static final int idTabProducto1=0x7f090016;
+        public static final int idTabProducto2=0x7f09001c;
+        public static final int idTabProducto3=0x7f090022;
+        public static final int idTabProducto4=0x7f090028;
+        public static final int idTabValor=0x7f090012;
+        public static final int idTabValor1=0x7f090018;
+        public static final int idTabValor2=0x7f09001e;
+        public static final int idTabValor3=0x7f090024;
+        public static final int idTabValor4=0x7f09002a;
+        public static final int pedidoFragment=0x7f090000;
+        public static final int tableRow1=0x7f09000e;
+        public static final int tableRow2=0x7f090014;
+        public static final int tableRow3=0x7f09001a;
+        public static final int tableRow4=0x7f090020;
+        public static final int tableRow5=0x7f090026;
+        public static final int tableRow6=0x7f09002c;
+        public static final int tableRow7=0x7f090033;
+        public static final int tvCantidad=0x7f09000a;
+        public static final int tvMesa=0x7f090004;
+        public static final int tvMesero=0x7f090003;
+        public static final int tvProducto=0x7f090007;
+        public static final int tvTotal=0x7f09000d;
     }
     public static final class layout {
         public static final int activity_comanda=0x7f030000;
@@ -98,7 +103,7 @@ public final class R {
         public static final int fragment_pedido=0x7f030002;
     }
     public static final class menu {
-        public static final int comanda=0x7f070000;
+        public static final int comanda=0x7f080000;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -184,10 +189,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }

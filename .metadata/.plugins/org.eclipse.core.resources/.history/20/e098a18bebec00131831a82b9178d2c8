@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">mcomanda</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- etiquetas -->
+    <string name="lbl_mesa">Mesa:</string>
+    <string name="lbl_mesero">Juan Miguel Alzate</string>
+    <string name="lbl_producto">Producto:</string>
+    <string name="lbl_cantidad">Cantidad:</string>
+    <string name="lbl_total">$250.365</string>
+    <!-- Botones -->
+    <string name="lbl_btn_1">1</string>
+    <string name="lbl_btn_2">2</string>
+    <string name="lbl_btn_3">3</string>
+    <string name="lbl_btn_4">4</string>
+    <string name="lbl_btn_5">5</string>
+    <string name="lbl_btn_6">6</string>
+    <string name="lbl_btn_7">7</string>
+    <string name="lbl_btn_8">8</string>
+    <string name="lbl_btn_9">9</string>
+    <string name="lbl_btn_0">0</string>
+    <string name="lbl_btn_atras">Back</string>
+    <string name="lbl_btn_adelante"> >> </string>
+    <string name="lbl_btn_ok">OK</string>
+    <string name="lbl_btn_enviar">Enviar</string>
+    <string name="lbl_btn_cancelar">Cancelar</string>
+    <!-- Mensaje -->
+    <string name="lbl_hit_nmesa">Número de mesa</string>
+    <string name="lbl_ime_nmesa">Número de mesa</string>
+    <string name="lbl_hit_producto">Nombre del Producto</string>
+    <string name="lbl_ime_producto">Nombre del Producto</string>
+    <string name="lbl_hit_cantidad">Cantidad del Producto</string>
+    <string name="lbl_ime_cantidad">Cantidad del Producto</string>
+    <!-- Tabla -->
+    <string name="lbl_tab_codigo">Código</string>
+    <string name="lbl_tab_producto">Producto</string>
+    <string name="lbl_tab_cantidad">Cantidad</string>
+    <string name="lbl_tab_valor">Valor</string>
+    <string name="lbl_tab_eliminar">Eliminar</string>
+    <!-- Tabla  Ejemplo -->
+    <string name="codigo">001</string>
+    <string name="producto">Botella Aguardiente del Valle</string>
+    <string name="cantidad">1</string>
+    <string name="valor">$29.000</string>
+    <string name="codigo2">002</string>
+    <string name="producto2">Botella de Ron</string>
+    <string name="cantidad2">1</string>
+    <string name="valor2">$39.000</string>
+    <string name="codigo3">003</string>
+    <string name="producto3">Limonada Natural</string>
+    <string name="cantidad3">1</string>
+    <string name="valor3">$10.000</string>
+    <string name="codigo4">004</string>
+    <string name="producto4">Agua Botella</string>
+    <string name="cantidad4">1</string>
+    <string name="valor4">$5.000</string>
+    
+    <color name="white">#ffffff</color>
+    <color name="indianRed">#CD5C5C</color>
+    <color name="red">#FF0000</color>
+
+</resources>

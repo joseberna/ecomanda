@@ -1,15 +1,30 @@
 package com.pedido.mcomanda;
 
 import android.os.Bundle;
-import android.app.Activity;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 
-public class ComandaActivity extends Activity {
+public class ComandaActivity extends FragmentActivity {
+
+	PedidoFragment pedidoFragment;
+	GaleriaFragment galeriaFragment;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_comanda);
+
+		pedidoFragment = new PedidoFragment();
+		galeriaFragment = new GaleriaFragment();
+
+		FragmentTransaction transaction = getSupportFragmentManager()
+				.beginTransaction();
+
+		transaction.add(R.id.pedidoFragment, pedidoFragment);
+		transaction.add(R.id.galeriaFragment, galeriaFragment);
+
+		transaction.commit();
 	}
 
 	@Override

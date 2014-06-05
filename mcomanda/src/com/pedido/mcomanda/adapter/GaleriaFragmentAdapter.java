@@ -1,7 +1,5 @@
 package com.pedido.mcomanda.adapter;
 
-import java.util.ArrayList;
-
 import com.pedido.mcomanda.R;
 
 import android.content.Context;
