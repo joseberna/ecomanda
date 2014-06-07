@@ -5,14 +5,18 @@ import com.pedido.mcomanda.R;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.ImageView;
+
+import android.widget.ImageButton;
+import android.widget.ImageView.ScaleType;
 
 public class GaleriaFragmentAdapter extends BaseAdapter {
+
 	private Context mContext;
 	private Integer[] mThumbIds = { R.drawable.aguardiente_blanco,
-			R.drawable.aguardiente_cristal, R.drawable.baileys,
+			R.drawable.wishkey, R.drawable.baileys,
 			R.drawable.cerveza, R.drawable.cerveza_importada,
 			R.drawable.ron_bacardi, R.drawable.vino, R.drawable.wishkey
 
@@ -36,19 +40,22 @@ public class GaleriaFragmentAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		// TODO Auto-generated method stub
-		ImageView imageView;
+
+		ImageButton button;
 		if (convertView == null) { // if it's not recycled, initialize some
 									// attributes
-			imageView = new ImageView(mContext);
-			imageView.setLayoutParams(new GridView.LayoutParams(85, 85));
-			imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-			imageView.setPadding(8, 8, 8, 8);
+
+			button = new ImageButton(mContext);
+			button.setLayoutParams(new GridView.LayoutParams(
+					LayoutParams.MATCH_PARENT, 250));
+			
+			button.setScaleType(ScaleType.FIT_CENTER);
+
 		} else {
-			imageView = (ImageView) convertView;
+			button = (ImageButton) convertView;
 		}
 
-		imageView.setImageResource(mThumbIds[position]);
-		return imageView;
+		button.setImageResource(mThumbIds[position]);
+		return button;
 	}
 }
