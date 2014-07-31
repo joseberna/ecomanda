@@ -1,4 +1,6 @@
-package com.pedido.mcomanda;
+package com.pedido.mcomanda.view;
+
+import com.pedido.mcomanda.R;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

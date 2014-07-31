@@ -1,7 +1,8 @@
-package com.pedido.mcomanda;
+package com.pedido.mcomanda.view;
 
 
-import com.pedido.mcomanda.adapter.GaleriaFragmentAdapter;
+import com.pedido.mcomanda.R;
+import com.pedido.mcomanda.view.adapter.GaleriaFragmentAdapter;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;

@@ -1,4 +1,4 @@
-package com.pedido.mcomanda.adapter;
+package com.pedido.mcomanda.view.adapter;
 
 import com.pedido.mcomanda.R;
 
